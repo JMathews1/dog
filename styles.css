@@ -4,7 +4,24 @@ body {
 }
 
 #dogImage {
-    margin-top: 20px;
-    max-width: 500px;
+    max-width: 100%; 
+    height: auto; 
     border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 20px;
+    }
+
+    #dogButton {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #dogImage {
+        max-width: 90%; /* slightly smaller to add some space around the image */
+        margin-top: 15px;
+    }
 }
