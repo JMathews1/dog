@@ -9,7 +9,14 @@ body {
     border-radius: 10px;
 }
 
-
+html, body {
+    height: 100%; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
 
 
 
@@ -18,14 +25,9 @@ body {
         margin-top: 20px;
     }
 
-    #dogButton {
-        font-size: 18px;
-        padding: 10px;
-    }
-
     #dogImage {
-        max-width: 90%; /* slightly smaller to add some space around the image */
+        min-width: 150%; 
         margin-top: 15px;
-        min-width: -webkit-fill-available;
+
     }
 }
