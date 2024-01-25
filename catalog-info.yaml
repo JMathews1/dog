@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dog
+  annotations:
+    github.com/project-slug: JMathews1/dog
+spec:
+  type: other
+  lifecycle: unknown
+  owner: james_team_1
